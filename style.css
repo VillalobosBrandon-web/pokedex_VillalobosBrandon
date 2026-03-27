@@ -1,0 +1,223 @@
+body {
+    margin: 0;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+}
+
+body.index {
+    background: url("./img/kanto-map.jpeg") center fixed;
+}
+
+.titulo {
+    color: white;
+    font-size: 32px;
+    margin-top: 30px;
+    text-shadow: 0 0 10px black;
+
+}
+
+.pokedex {
+    width: 350px;
+    margin-top: 40px;
+}
+
+.pokemons{
+    margin-top: 25px;
+}
+
+.pokemons a {
+    display: block;
+    color: white;
+    font-size: 18px;
+    margin: 15px ;
+    padding: 10px;
+    background: black;
+    border-radius: 8px;
+    width: 200px;
+    transition: 0.3s;
+}
+
+.pokemons a:hover {
+    background: rgb(235, 231, 231);
+    color: black;
+}
+
+body.pokemon {  
+    background: red;
+}
+body.pokemon-gengar {
+    background: #5c00b8;
+}
+body.pokemon-froakie {
+    background: #047dff;
+}
+body.pokemon-shinx {
+    background: #fbff04;
+}
+
+.carta-pokemon {
+    width: 1400px;
+    margin: 40px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 0 20px black;
+}
+
+.pokemon-img {
+    width: 180px;
+}
+
+.description {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.info p {
+    margin: 5px 0;
+    font-size: 17px;
+}
+
+.Volver {
+    margin-top: 25px;
+    padding: 10px 20px;
+    background: red;
+    color: white;
+    border-radius: 10px;
+    transition: 0.3s;
+    display: inline-block;
+    margin: 25px auto 0 auto;
+}
+
+.Volver:hover {
+    background: #ecbe04;
+}
+
+.Volver-shinx {
+    margin-top: 25px;
+    padding: 10px 20px;
+    background: rgb(251, 255, 0);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    transition: 0.3s;
+    display: inline-block;
+    margin: 25px auto 0 auto;
+}
+
+.Volver-shinx:hover {
+    background: #07dbf3;
+}
+.Volver-gengar {
+    margin-top: 25px;
+    padding: 10px 20px;
+    background: #5c00b8;
+    color: white;
+    border-radius: 10px;
+    transition: 0.3s;
+    display: inline-block;
+    margin: 25px auto 0 auto;
+}
+
+.Volver-gengar:hover {
+    background: #3a007c;
+}
+
+
+.Volver-froakie {
+    margin-top: 25px;
+    padding: 10px 20px;
+    background: #047dff;
+    color: white;
+    border-radius: 10px;
+    transition: 0.3s;
+    display: inline-block;
+    margin: 25px auto 0 auto;
+}
+
+.Volver-froakie:hover {
+    background: #e7e9ebe8;
+    color: black;
+}
+
+
+.titulo-evoluciones {
+    font-size: 22px;
+    margin-top: 40px;
+    text-align: center;
+    color: black;
+}
+
+
+.evoluciones {
+    display: flex;
+    flex-direction: row;      
+    align-items: center;
+    justify-content: center;  
+    gap: 20px;                
+    background: rgba(0,0,0,0.4);
+    padding: 15px;            
+    border-radius: 12px;
+    margin-top: 15px;
+    flex-wrap: nowrap;        
+}
+
+
+.carta-evo {
+    text-align: center;
+    color: white;
+    width: 110px;             
+    text-decoration: none;
+}
+
+.carta-evo img {
+    width: 120px;             
+}
+
+.carta-evo .num {
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+.carta-evo .name {
+    font-size: 15px;
+    margin: 5px 0;
+}
+
+.carta-evo .type {
+    font-size: 12px;
+    background: orange;
+    padding: 4px 8px;
+    border-radius: 8px;
+    display: inline-block;
+}
+.carta-evo .type-shinx {
+    font-size: 12px;
+    background: yellow;
+    padding: 4px 8px;
+    border-radius: 8px;
+    display: inline-block;
+    color: black;
+}
+.carta-evo .type-gengar {
+    font-size: 12px;
+    background: #5c00b8;
+    padding: 4px 8px;
+    border-radius: 8px;
+    display: inline-block;
+    color: white;
+}
+.carta-evo .type-froakie {
+    font-size: 12px;
+    background: #00eaff;
+    padding: 4px 8px;
+    border-radius: 8px;
+    display: inline-block;
+    color: black;
+}
+
+.flecha {
+    font-size: 35px;
+    color: white;
+    margin: 0 10px;
+}
